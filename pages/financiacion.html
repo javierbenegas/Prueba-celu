@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiación</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet"> 
+
+</head>
+
+<body>
+    <div class="financiacion__grid">
+        <header class="grid_header">
+            <!--Barra de navegación\-->
+            <nav class="fondo header__img header__text texto__color">
+                <!--icono del sitio\-->
+                <img src="../img/auto_icono.png" alt="icono auto">
+                 <!--Lista desordenada con los link a las otras paginas\-->
+                <ul class="accesos">
+                    <!--Items de la lista, cada uno linkeado a las paginas del sitio\-->
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="./financiacion.html">Usados</a></li>
+                    <li><a href="./financiacion.html">Autos 0km</a></li>
+                    <li><a href="./financiacion.html">Financiación</a></li>
+                    <li><a href="./financiacion.html">Contacto</a></li>
+                </ul>
+            </nav>  
+        </header>
+        <!--Sección principal de la pagina\-->
+        <section class="financiacion__section grid_section">
+            <!--Titulo de la seccion\-->
+            <h2>Calcula el valor de tu cuota</h2>
+            <!--Inicio del cuestionario con clave FORM\-->
+            <form class="contacto__container"> 
+                <!--Contenedores div para completar casillas\-->
+                    <div>
+                        <div>
+                            <label for="nombre">Precio del vehículo:</label>
+                            <input type="text" name="precio">
+                            <label for="apellido">Monto de entrega:</label>
+                            <input type="text" name="pago">
+                        </div>
+                    </div> 
+                    <div>
+                        <div>
+                            <label for="nombre">Cantidad de cuotas:</label>
+                            <input type="text" name="cuotas">
+                        </div>
+                    </div> 
+                    <div class="calcular__boton">
+                        <input type="submit" value="Calcular"> 
+                    </div>      
+                    <div>
+                        <div>
+                            <div>
+                                <label for="comentarios">Valor de la cuota:</label>
+                                <input type="text" name="valor cuota">
+                            </div>
+                        </div>
+                    </div>         
+            </form> 
+        </section>
+
+        <footer class="grid_footer">   
+            <!--Contenedor div con imagen (icono del comercio) e imagenes linkeadas a las redes sociales\-->         
+            <div class="footer__container">
+                <img src="../img/auto_icono.png" alt="icono">
+                <!--Lista desordenada\-->  
+                <ul>
+                    <!--List item con imagenes linkeadas a las diferentes redes\-->  
+                    <li><a href="https://www.facebook.com"><img class="img__ch" src="../img/facebook.png" alt=""></a></li>
+                    <li><a href="https://web.whatsapp.com/"><img class="img__ch" src="../img/whatsapp.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com"><img class="img__ch" src="../img/instagram.png" alt=""></a></li>
+                    <li><a href="https://www.twitter.com"><img class="img__ch" src="../img/twitter.png" alt=""></a></li>
+                    <li><a href="https://www.gmail.com"><img class="img__ch" src="../img/gmail.png" alt=""></a></li>
+                </ul>
+            </div> 
+             <!--Contenedor div con un mapa detallando la ubicación de la concesionaria\-->  
+            <div class="mapouter oculto"><div class="gmap_canvas"><iframe width="500" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=santa%20teresita%20306%20cutral%20co&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:250px;width:500px;}</style><a href="https://www.embedgooglemap.net">embed maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:500px;}</style></div></div>
+            <div>
+                <!--Contenedor div con un Loren que representa un detalle de la concesionaria\--> 
+                <p class="oculto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum dolorum saepe quo sint, earum debitis amet a ex iure facilis illum, error quod quidem dolores sapiente, ducimus dignissimos reprehenderit!</p>
+            </div>                
+        </footer>
+    </div>
+</body>
+</html>

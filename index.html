@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concesionaria WMB</title>
+    <link rel="shortcup icon" href="img/auto_icono.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet"> 
+</head>
+
+
+<body>
+    <div class="container__grid">  <!--Contenedor div que contiene todo el sitio para aplicar grid\-->
+        <header class="grid_header">
+            <!--Barra de navegación\-->
+            <nav class="fondo header__text texto__color">
+                <!--icono del sitio\-->
+                <img src="./img/auto_icono.png" alt="icono auto">
+                <!--Lista desordenada con los link a las otras paginas\-->
+                <ul>
+                    <!--Items de la lista, cada uno linkeado a las paginas del sitio\-->
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./index.html">Usados</a></li>
+                    <li><a href="./index.html">Autos 0km</a></li>
+                    <li><a href="./pages/financiacion.html">Financiación</a></li>
+                    <li><a href="./index.html">Contacto</a></li>
+                </ul>
+            </nav>  
+        </header>
+       
+        <!--Sección principal de la pagina\-->
+        <main class="grid_main">
+                <!--Contenedor div dentro de seccion\-->
+
+                <!--información principal del sitio, detalles del comercio con un titulo h1 y lorem representando la presentación\-->
+            <div> 
+                <h1>Quienes somos?</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod voluptates delectus tempore repudiandae quam facilis fugiat necessitatibus itaque consequatur, excepturi sed expedita minus voluptate vero labore eos magni architecto magnam. Eaque nulla sequi magni sapiente aperiam. Odio est perspiciatis explicabo voluptate laudantium odit similique neque animi provident minima, vel ad beatae aperiam atque assumenda porro nesciunt, quibusdam delectus molestiae vitae sunt eius? Harum itaque aliquam, facere quod repellat libero officia iste illo voluptatem consequatur labore qui, culpa impedit doloremque quam!</p>
+            </div>
+                <!--Titulo secundario de la pagina para presentar las novedaes\-->
+
+        </main> 
+
+            <!--Sección con las fotos de las novedades del sitio, las imagenes linquedas la pagina "compra" del sitio\-->
+        <aside  class="container__galeria grid_aside">
+            <h2>Novedades</h2>
+            <div class="flex-catalogo">
+                <div> <!--Contenedor div con una imagen y un link para moverse por el sitio\-->
+                    <img src="./img/vehiculo1.jpg" alt="vehiculo1">
+                    <a class="linkAutos" href="./pages/compra.html">Ford Focus III</a>
+                </div>
+
+                <!--<div>
+                    <img src="./img/vehiculo2.jpg" alt="vehiculo2">
+                    <a class="linkAutos" href="./pages/compra.html">KTM 490</a>
+                </div>\-->
+
+            </div>
+        </aside>
+        
+            <!--footer del sitio\-->  
+        <footer class="grid_footer">   
+            <!--Contenedor div con imagen (icono del comercio) e imagenes linkeadas a las redes sociales\-->   
+            <div class="footer__container">
+                <img src="./img/auto_icono.png" alt="icono">
+                <!--Lista desordenada\-->  
+                <ul>
+                    <!--List item con imagenes linkeadas a las diferentes redes\-->  
+                    <li><a href="https://www.facebook.com"><img class="img__ch" src="./img/facebook.png" alt=""></a></li>
+                    <li><a href="https://web.whatsapp.com/"><img class="img__ch" src="./img/whatsapp.png" alt=""></a></li>
+                    <li><a href="https://www.instagram.com"><img class="img__ch" src="./img/instagram.png" alt=""></a></li>
+                    <li><a href="https://www.twitter.com"><img class="img__ch" src="./img/twitter.png" alt=""></a></li>
+                    <li><a href="https://www.gmail.com"><img class="img__ch" src="./img/gmail.png" alt=""></a></li>
+                </ul>
+            </div> 
+            <!--Contenedor div con un mapa detallando la ubicación de la concesionaria\-->  
+            <div class="mapouter mapa media oculto"><div class="gmap_canvas"><iframe width="500" height="250" id="gmap_canvas" src="https://maps.google.com/maps?q=santa%20teresita%20306%20cutral%20co&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/">divi discount</a><br><style>.mapouter{position:relative;text-align:right;height:250px;width:500px;}</style><a href="https://www.embedgooglemap.net">embed maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:250px;width:500px;}</style></div></div>
+            <div class="oculto">
+            <!--Contenedor div con un Loren que representa un detalle de la concesionaria\-->  
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga cum dolorum saepe quo sint, earum debitis amet a ex iure facilis illum, error quod quidem dolores sapiente, ducimus dignissimos reprehenderit!</p>
+            </div>                
+        </footer>
+    </div>   
+</body>
+</html>

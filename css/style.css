@@ -1,0 +1,547 @@
+/*Grid para header*/
+.container__grid .grid_header,
+.container__grid .grid_main,
+.container__grid .grid_aside,
+.container__grid .grid_footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+}
+
+.grid_header{
+    grid-area: header;
+}
+
+
+
+header{
+    background-color: black;
+    height: 125px;
+}
+/*CSS_header   alineacion de lista desordenada*/
+header ul li{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    font-family: 'Alata', sans-serif;
+    text-align: right; 
+    margin: 0 20px 0 0; 
+}
+
+/*CSS_header   clase para fondo negro y tipografía*/
+.fondo{
+    background-color: rgb(5, 5, 5);
+    font-family: 'Alata', sans-serif;
+    color: white;
+    }
+
+    /*CSS_header   Centrado de imagen*/
+header img{
+    margin: 7px 7px 0 7px;
+    height: 140px;
+}
+    /*CSS_header   atributos para imagen*/
+
+header nav img {
+    width: auto; 
+    max-height: 90%; 
+   }
+   /*CSS_header   Flexbox para barra de navegacion*/
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+    /*CSS_header   Flexbox para barra de navegacion, alineacion de list item de lista desordenada*/
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+    /*CSS_main   Grid para main*/
+.grid_main{
+    grid-area: main;
+    max-height: 900px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:flex-start;
+}
+    /*CSS_main   Propiedades para titulo de main div h1*/
+main div h1{
+    color: rgb(148, 24, 24);
+    text-align: left;
+    font-family: 'Alata', sans-serif;
+    font-style: italic;
+    font-size: 35px;
+    margin: 35px 0 0 20px;
+} 
+    /*CSS_main   Propiedades para parrado de main div p*/
+main div p{
+    font-family: 'Alata', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    padding: 25px;
+}
+    /*CSS_main   Propiedades para titulo2 de main H2*/   
+h2{
+    color: rgb(148, 24, 24);
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+    /*CSS_aside   Grid para aside*/
+.grid_aside{
+    grid-area: aside;
+    max-height: 900px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    /*Clase para aplicar atributos de fondo y color de fuente*/
+.container__galeria{
+    background-color: black;
+    color: white;
+}
+    /*Clase para aplicar atributos de fondo y color de fuente*/
+.container__galeria div div a{
+    background-color:black;
+    color: white;
+}
+    /*CSS_aside   clase para ordenar la galeria de imagenes*/
+
+    /*CSS_aside   Clase para aplicar flexbox a contenedor div div*/
+.container__galeria div div{
+    display: flex;
+    flex-direction: column;
+}
+    /*CSS_aside   Clase para aplicar flexbox a contenedor div div img*/
+.container__galeria div div img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 5px;
+    width: 325px;
+    height: 244px;
+    }
+    /*CSS_aside   Flexbox para grupo de imagenes de la portada*/
+.linkAutos{
+    color: black;
+    font-family: 'Alata', sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    border: 2px solid black;
+    margin: 5px 0 30px 0;
+    padding: 0 4px 0 4px;
+    display: flex;
+}
+    /*CSS_aside   Clase para centrar las imagenes*/
+.centrar {
+    margin:auto;
+    display:block;
+    padding: 20px 0 20px 0;
+}
+    /*CSS_footer   Grid para footer + flexbox*/
+.grid_footer{
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    max-height: 300px;
+    
+}
+
+
+    /*CSS_footer   Clase para aplicar flexbox a contenedor div de footer*/
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 7px 0 7px 0;
+}
+    /*CSS_footer   propiedades para el parrafo de footer*/
+footer div p{
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    width: 300px;
+    height: 150px;
+    margin-left: 35px;
+    margin-bottom: 65px;
+}
+    /*CSS_footer   propiedades para la imagen del footer*/
+footer div img{
+    height: 150px;
+    width: auto;
+}
+    /*CSS_footer   Ordenamiento de la lista de iconos en footer*/
+footer div ul li{
+    display: inline-flex;
+    list-style: none;
+    align-items: center;
+    margin: 7px 0 7px 0; 
+}   /*Clase para ajustar iconos del footer*/
+.img__ch{
+    width: 40px;
+    height: auto;
+}
+/*Grid para section*/
+
+    /*Ajuste para el contenedor del formulario*/
+.ajuste-contacto{
+    height: 650px;
+}
+.ajuste-contacto form{
+    margin-left:  25%;
+}
+
+.flex-catalogo{
+    display: flex;
+    flex-direction: col;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.flex-catalogo div img{
+    max-width: 300px;
+}
+
+section{
+    grid-area: section;
+    height: 950px;
+}
+    /*flexbox para formularios*/
+section form{
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 50px;    
+    font-family: 'Alata', sans-serif;
+}
+    /*Clase para ajustar atributos y flexbox en pagina Financiacion*/
+.financiacion__section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    background-color: black;
+    color: white;
+    height: 750px;
+}
+    /*Flexbox para paginas con formularios*/
+.formulario__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+    width: 650px;
+    height: 500px;
+}
+    /*clase para aplicar flexbox para paginas con formularios*/
+.formulario__container div{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    margin-left: 10px;
+}
+    /*clase para aplicar flexbox para paginas con formularios*/
+.formulario__container div div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+    /*clase para aplicar flexbox para paginas con formularios*/
+.formulario__container div div div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 50px;
+}
+    /*clase para ajustar tamaño de boton en formulario*/
+.formulario__container div div input{
+    width: 250px;
+    height: 35px;
+}
+    /*clase para ajustar tamaño de boton en formulario*/
+.formulario__container div div div input{
+    width: 600px;
+    height: 150px;
+}
+    /*clase para ajustar tamaño de etiquetas*/
+label{
+    padding: 5px 0 5px 0;
+}
+    /*clase para ajustar tamaño de boton en formulario*/
+.formulario__container div input{
+    width: 250px;
+    height: 35px;
+}
+    /*clase para ajustar margenes en boton de formulario*/
+.margen__boton{
+    margin-top: 20px;
+}
+
+.contacto__container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: 'Alata', sans-serif;
+    font-size: 25px;
+    height: 600px;
+}
+    /*clase para aplicar flexbox en formulario de pagina CONTACTO*/
+.contacto__container div{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+    /*clase para aplicar flexbox en formulario de pagina CONTACTO*/
+.contacto__container div div{
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+}
+    /*clase para aplicar flexbox en formulario de pagina CONTACTO*/
+.contacto__container div div input{
+    width: 250px;
+    height: 35px;
+    align-items: center;
+    justify-items: center;
+}
+    /*clase para ajustar tamaño de formulario*/
+.contacto__container div input{
+    width: 250px;
+    height: 35px;
+}
+    /*clase para ajustar tamaño de boton*/
+.calcular__boton{
+    margin: 40px 0 25px 0;
+    width: 250px;
+    height: 35px;
+}  
+    /*clase para aplicar flexbox a formulario*/
+.seccion__catalogos{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    font-family: 'Alata', sans-serif;
+    text-align: left;
+    width: 1000px;
+    margin:25px 0 50px 250px;
+ }
+     /*clase para aplicar flexbox a catalogo de imagenes*/
+
+     /*clase para ajustar tamaño y margen del titulo de la pagina*/
+.seccion__catalogos div h3{
+    font-size: 20px;
+    margin: 5px 0 1px 2px;
+}
+    /*clase para ajustar tamaños y margenes de imagenes*/
+.seccion__catalogos div h4{
+    font-size: 18px;
+    margin: 5px 0 1px 2px;
+}
+    /*clase para ajustar tamaños y margenes de imagenes*/
+.seccion__catalogos div ul{
+    font-size: 15px;
+    margin: 5px 0 1px 2px;
+}
+    /*clase para ajustar tamaños y margenes de imagenes*/
+.seccion__catalogos div{
+    border: 1px solid black;
+    margin: 5px 35px 5px 35px;
+    justify-content: center;
+    align-items: center;
+}
+    /*clase para aplicar grid en Index*/
+.container__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "header header header"
+    "main aside aside"
+    "footer footer footer";
+}
+    /*clase para aplicar grid en Financiacion*/
+.financiacion__grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "header header header"
+    "section section section"
+    "footer footer footer";
+}
+.financiacion__grid section{
+    display: grid;
+    grid-template-columns: 10% 90% 10%;
+    grid-template-rows: 15% auto;
+    grid-template-areas:
+    ". titulo ."
+    ". formulario .";
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center; 
+}
+.financiacion__grid section h2{
+    grid-area: titulo;
+}
+.financiacion__grid section form{
+    grid-area: formulario;
+}
+
+
+
+
+
+
+    /*Media Query*/
+@media screen and (max-width: 480px) {
+    .oculto{
+        display: none;
+    }
+    
+    .container__grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas: 
+        "header header header"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer";
+    }
+
+
+
+
+    header{
+        height: 100px;
+        background-color: black;
+        grid-area: header;
+    }
+
+    main{
+        height: 650px;
+        background-color: black;
+        color: white;
+        grid-area: main;
+    }
+
+    aside{
+        height: 1050px;
+        background-color:black;
+        color: white;
+        grid-area: aside;      
+    }
+    .container__galeria div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color:  black;
+        grid-area: aside;
+    }
+
+    footer{
+        height: 300px;
+        background-color: black;
+        grid-area: footer;
+    }
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        margin: 7px 2px 7px 2px;
+        grid-area: footer;
+    }
+    .footer__container ul{
+        display: flex;
+        flex-direction: row;
+        align-items:center;
+        justify-content: space-around;
+        grid-area: footer;
+    }
+
+    .container__grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "header"
+        "main"
+        "aside"
+        "footer";
+    }
+    .grid_img{
+        display: grid;
+        grid-template-areas:
+        "titulo"
+        "imagen";
+        grid-template-columns: 100%;
+        grid-template-rows: 10% auto;
+        justify-items: center;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        }
+    .container__grid aside h2{
+        grid-area: titulo;
+    }
+    .container__grid aside div{
+        grid-area: imagen;
+    }
+
+    header img{
+        margin: 1px;
+        height: 100px;
+    }
+
+    .financiacion__section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 15% auto;
+        grid-template-columns: 
+        "titulo"
+        "formulario";
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    .financiacion__grid section h2{
+        grid-area: titulo;
+    }
+    .financiacion__grid section form{
+        grid-area: formulario;
+    }
+    footer div{
+        margin-right:10px;
+    }
+}
